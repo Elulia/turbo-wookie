@@ -12,6 +12,11 @@ public class Pile
 		this.position = 0;
 	}
 
+	/**
+	 * Empilement d'un élément.
+	 * 
+	 * @param element l'élément à empiler.
+	 */
 	public void empiler(int element)
 	{
 		if (this.position != this.taille && element > -1)
@@ -25,6 +30,11 @@ public class Pile
 		}
 	}
 
+	/**
+	 * Dépiler un élément.
+	 * 
+	 * @return L'élément dépilé ou un code d'erreur.
+	 */
 	public int depiler()
 	{
 		if (this.position != 0)
