@@ -26,7 +26,7 @@ public class Pile
 		}
 		else
 		{
-			System.out.println("La pile pleine ou Ã©lÃ©ment nÃ©gatif");
+			System.out.println("La pile pleine ou élément négatif");
 		}
 	}
 
