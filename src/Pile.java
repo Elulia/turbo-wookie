@@ -13,27 +13,27 @@ public class Pile
 	}
 
 	/**
-	 * Empilement d'un élément.
+	 * Empilement d'un Ã©lÃ©ment.
 	 * 
-	 * @param element l'élément à empiler.
+	 * @param element l'Ã©lÃ©ment Ã  empiler.
 	 */
 	public void empiler(int element)
 	{
 		if (this.position != this.taille && element > -1)
 		{
-			this.etage[this.position + 1] = element;
+			this.etage[this.position + 1] = element;//c'est cool !
 			this.position = this.position + 1;
 		}
 		else
 		{
-			System.out.println("La pile pleine ou Ã©lÃ©ment nÃ©gatif");
+			System.out.println("La pile pleine ou ÃƒÂ©lÃƒÂ©ment nÃƒÂ©gatif");
 		}
 	}
 
 	/**
-	 * Dépiler un élément.
+	 * DÃ©piler un Ã©lÃ©ment.
 	 * 
-	 * @return L'élément dépilé ou un code d'erreur.
+	 * @return L'Ã©lÃ©ment dÃ©pilÃ© ou un code d'erreur.
 	 */
 	public int depiler()
 	{
